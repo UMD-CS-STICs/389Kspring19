@@ -127,6 +127,9 @@ TAs:
 
 [Chirag Shankar] - chishankar@gmail.com
 
+[Camille Stacho] - camstach@gmail.com
+
+
 ## Excused Absence and Academic Accommodations
 See the section titled "Attendance, Absences, or Missed Assignments" available
 at

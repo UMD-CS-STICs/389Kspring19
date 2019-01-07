@@ -129,6 +129,8 @@ TAs:
 
 [Camille Stacho] - camstach@gmail.com
 
+[Chidi Udeze] - chidiu98@gmail.com
+
 
 ## Excused Absence and Academic Accommodations
 See the section titled "Attendance, Absences, or Missed Assignments" available

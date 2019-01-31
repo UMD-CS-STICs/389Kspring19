@@ -19,8 +19,10 @@ application.
 - **Location**: CSI 2120
 - **Semester**: Spring 2019
 - **Textbook**: None
-- **Course Facilitators**: [Benny Cheng](https://benny-webportfolio.herokuapp.com/)
-and [Chirag Shankar](https://www.linkedin.com/in/chirag-shankar/)
+- **Course Facilitators (Section 0101)**: [Benny Cheng](https://benny-webportfolio.herokuapp.com/)
+and [Chirag Shankar](https://chishankar.github.io/)
+- **Course Facilitators (Section 0201)**: [Camille Stacho](https://cstacho.github.io)
+and [Chidi Udeze](https://www.chidi.me)
 - **Faculty Advisor**: [John Dickerson](http://jpdickerson.com/)
 - **Syllabus Last Updated**: May 15 2018
 
@@ -71,8 +73,8 @@ percentages:
 | ------------- | -----|-------- |
 | 45% | Projects  | Weekly individual projects that teach practical skills and real life applications. |
 | 10% | Participation | Small assignments to be completed in groups. |
-| 20% | Midterm | Examination  |
-| 25% | Final Project | Final project to demonstrate mastery of all topics learned and apply knowledge to create a new application from scratch. |
+| 20% | Midterm | Midterm Project
+| 25% | Final Project | Final project to demonstrate mastery of all topics learned and apply knowledge to create a new application from scratch. Group Project! |
 
 Any request for reconsideration of any grading on coursework must be submitted
 within one week of when it is returned. No requests will be considered
@@ -88,8 +90,8 @@ afterwards.
 | 6 (3/8) | Express.js (cont.) | |
 | 7 (3/15) | Express.js (cont.) / Handlebars.js | P4 DUE & Representatives Website (P5) |
 | 8 (3/22) | Spring break |  |
-| 9 (3/29) | Databases |  |
-| 10 (4/5) | Midterm Project Presentation | P5 DUE |
+| 9 (3/29) | Midterm Project Presentation | Midterm Project DUE |
+| 10 (4/5) | Databases |  |
 | 11 (4/12) | Web Sockets| Final Project OUT |
 | 12 (4/19) | Deployment & Advanced Git| |
 | 13 (4/26) | Javscript Libraries (Chart.js / Typed.js) | 

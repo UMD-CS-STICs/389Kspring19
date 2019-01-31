@@ -1,0 +1,145 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <style>
+        /* Using . (dots) allows you to specify class titles */
+        .umd-header {
+            border: 4px solid blue;
+        }
+        
+        /* Using hashtags allows you to specify elements by ID's */
+        #course-title {
+            font-size: 50px;
+            color: white;
+        }
+
+        /* Not using . or # allows you to apply a css rule to all elements with this tag */
+        p {
+            padding-left: 50px;
+        }
+
+        header {
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7JHfzG8NiizwnhsSHOfMVel69BGdiqEhKDDh2Ej0DMPvL8p-Pnw");
+            background-size: cover;
+        }
+
+        a {
+            color: black;
+            font-size: 20px;
+            border-bottom: 2px solid red;
+        }
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            display: inline;
+            padding-right: 10px;
+        }
+
+        blockquote {
+            background: white;
+            padding: 0px 3px 6px 10px;
+            border: 2px dotted purple;
+
+        }
+
+        /* So as I said earlier in class, block =has some whitespace above and below it and tolerates no HTML elements next to it. In this example I say by default img css should be block, but this is overwrited in the @media statement below. I say as long as the width is above 1000px, keep the img css to inline */
+        img {
+            display: block;
+        }
+
+        /* This media query essentially says as long as the webpage width is 450px and less, make the following css changes */
+        @media (max-width: 450px) {
+            header {
+                background: url("https://pbs.twimg.com/media/Bfmzq5XCYAANr69.png");
+            }
+
+            li {
+                display: block;
+
+            }
+        }
+
+        /* This media query essentially says as long as the webpage width is above 1000px the img css is following */
+        @media (min-width: 1000px) {
+            img {
+                display: inline;
+            }
+        }
+
+        .center-align {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <!-- Here is an example of in-line css and attaching a id attribute to an element -->
+        <!-- H1 is a header tag  -->
+        <h1 align="left" id="course-title">
+            UMD Courses
+        </h1>
+    </header>
+    <!-- Unordered List -->
+    <ul>
+        <!-- List tag -->
+        <li>
+            <!-- Anchor tag with href attribute set to non-relative path (meaning it goes to internet) -->
+            <a href="https://www.google.com">
+                Google
+            </a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com">
+                Facebook
+            </a>
+        </li>
+        <!-- This link will fail because it is an invalid relative path -->
+        <li>
+            <a href="www.google.com">
+                This link will fail
+            </a>
+        </li>
+    </ul>
+
+    <!-- Blockquote element -->
+    <blockquote>
+        This is a cool blockquote.
+        <b>It seems like bootstrap has an effect on this. Try commenting out the bootstrap css sheet link!</b>
+        <!-- How to make a horizontal line break -->
+        <hr />
+        Resize this webpage to change the background of the header to something cool!
+    </blockquote>
+
+    <!-- div is one of the most popular elements and it allows you define your content in your own group. For example, I want to organize
+    these pictures of turtles in one div and maybe pictures of lions in another -->
+    <div class="center-align">
+        <img src="https://rfathead-res.cloudinary.com/image/upload/q_auto/c_pad,w_4225,h_3000/roomplus/61-61763_NCAA_Maryland_Terrapins_2012_Logo_6628.jpg"
+            width="150px">
+        <img src="https://hvacjobscenter.com/jobscontent/uploads/company_logos/2017/11/terrapin-logo.jpg" width="150px">
+        <img src="https://sph.umd.edu/sites/default/files//styles/news_image-300w/public/TerpChair.jpg?itok=nrTNEr1M"
+            width="150px">
+        <img src="https://i.pinimg.com/236x/c2/f8/ab/c2f8ab26636d07393f43f569eb170902--university-of-maryland-terrapin.jpg"
+            width="150px">
+        <img src="https://psyc.umd.edu/sites/psyc.umd.edu/files/styles/width235/public/20140402005113%21Maryland_Terrapins_Basketball_Logo.png?itok=8Nt4xQS4"
+            width="150px">
+    </div>
+
+    <hr/>
+    <!-- Like I said earlier, the content within an element is defined by its parents elements. So in this example anything in the anchor tag makes anything inside of it clickable the routes it to reddit.com, so if we define a picture in an anochor tag, we now have a picture that is clickable -->
+    <section class="center-align">
+        <h2>Trying to go to reddit.com? Click the button below!</h2>
+ 
+        
+    </section>
+
+
+
+</body>
+
+</html>

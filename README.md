@@ -82,17 +82,17 @@ afterwards.
 
 | Week | Topic | Assignment |
 | ----|----|----- |
-| 1 (2/1) | Intro + HTML/CSS | Personal Website (P1) OUT |
+| 1 (2/1) | Intro + HTML/CSS | Personal Website (P1) |
 | 2 (2/8) | Javascript Language w/ DOM | P1 DUE, JS Function Implementation (P2) |
 | 3 (2/15) | jQuery and AJAX | P2 DUE, 50 State Game (P3) |
 | 4 (2/22) | Node.js | |
 | 5 (3/1) | Express.js | P3 DUE, Pokémon API (P4) |
 | 6 (3/8) | Express.js (cont.) | |
-| 7 (3/15) | Express.js (cont.) / Handlebars.js | P4 DUE & Representatives Website (P5) |
+| 7 (3/15) | Express.js (cont.) / Handlebars.js | P4 DUE & Midterm Project |
 | 8 (3/22) | Spring break |  |
-| 9 (3/29) | Midterm Project Presentation | Midterm Project DUE |
-| 10 (4/5) | Databases |  |
-| 11 (4/12) | Web Sockets| Final Project OUT |
+| 9 (3/29) | Databases | Midterm Project DUE |
+| 10 (4/5) | Web Sockets | |
+| 11 (4/12) | Midterm Project Presentation | Final Project OUT |
 | 12 (4/19) | Deployment & Advanced Git| |
 | 13 (4/26) | Javscript Libraries (Chart.js / Typed.js) | 
 | 14 (5/3) | Javascript Libraries  | 
@@ -111,7 +111,7 @@ At the end of most of the classes there will be a 5-10 min group (max 3 people) 
 ## Late policy (IMPORTANT)
 Projects may be submitted up to 24 hours late for a 10% penalty and <b>will not be accepted afterwards unless you talked with us for an extension</b>. If you submit
 both on-time & late, your project will receive the maximum of the
-penalty-adjusted scores. You may submit multiple times, but only your most recent submission will be evaluated unless it is late.
+penalty-adjusted scores. You may submit multiple times, but only your most recent submission will be evaluated unless it is late. We give students ample time to do all the projects (1-2 weeks). 
 
 Unlike lower-level programming classes, we will not provide you with test cases
 (e.g., public tests) before projects are due. You will be responsible for

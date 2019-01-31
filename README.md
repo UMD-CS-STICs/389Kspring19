@@ -69,7 +69,8 @@ percentages:
 
 | Percentage | Title | Description |
 | ------------- | -----|-------- |
-| 55% | Projects  | Weekly individual projects that teach practical skills and real life applications. |
+| 45% | Projects  | Weekly individual projects that teach practical skills and real life applications. |
+| 10% | Participation | Small assignments to be completed in groups. |
 | 20% | Midterm | Examination  |
 | 25% | Final Project | Final project to demonstrate mastery of all topics learned and apply knowledge to create a new application from scratch. |
 

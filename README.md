@@ -105,7 +105,10 @@ each project assignment. Projects may not be submitted by any other means
 test your program and verify that it works properly before submitting. All
 projects are due at 11:59 PM on the day indicated on the project assignment. Please read submission details thoroughly.
 
-### Late policy (IMPORTANT)
+## In-Class Assignments
+At the end of most of the classes there will be a 5-10 min group (max 3 people) exercise for extra practice and application of the material taught. Each assignment counts for 1% of your grade. You can drop at most 2 in-class assignments.
+
+## Late policy (IMPORTANT)
 Projects may be submitted up to 24 hours late for a 10% penalty and <b>will not be accepted afterwards unless you talked with us for an extension</b>. If you submit
 both on-time & late, your project will receive the maximum of the
 penalty-adjusted scores. You may submit multiple times, but only your most recent submission will be evaluated unless it is late.

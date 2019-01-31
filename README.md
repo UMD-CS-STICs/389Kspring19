@@ -71,7 +71,7 @@ percentages:
 | ------------- | -----|-------- |
 | 45% | Projects  | Weekly individual projects that teach practical skills and real life applications. |
 | 10% | Participation | Small assignments to be completed in groups. |
-| 20% | Midterm | Examination  |
+| 20% | Midterm Project | A midterm project to demonstrate mastery of topics learned so far. |
 | 25% | Final Project | Final project to demonstrate mastery of all topics learned and apply knowledge to create a new application from scratch. |
 
 Any request for reconsideration of any grading on coursework must be submitted

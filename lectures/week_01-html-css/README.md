@@ -19,12 +19,15 @@ Open it in your text editor and browser.
 Insert the following into your `index.html` file.
 
 ```html
+<!DOCTYPE html>
+<html>
 <head>
     <!-- meta-info here -->
 </head>
 <body>
     <!-- page content here -->
 </body>
+</html>
 ```
 
 ### Tags and Elements
@@ -373,7 +376,7 @@ Try resizing the browser to see how the website reacts.
 ---------------------------------
 
 The `@media` rule is used to define different style rules for different media
-types/devices. 
+types/devices.
 
 Try adding this CSS rule, and then resizing the web page:
 

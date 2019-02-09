@@ -1,6 +1,6 @@
 # JavaScript Function Implementation
 
-### Out: 9/7/18 | Due: 9/14/18 11:59 PM (Deadline 9/15/18 11:59 PM for 10% reduction)
+### Out: 2/8/19 | Due: 2/15/19 11:59 PM (Deadline 2/16/19 11:59 PM for 10% reduction)
 
 ## Overview
 For this project, you will be demonstrating your mastery of JavaScript!

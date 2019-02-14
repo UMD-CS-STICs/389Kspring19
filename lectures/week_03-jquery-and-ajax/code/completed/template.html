@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="http://thestamp.umd.edu/portals/0/Images/Shops%20and%20Services/terapinLogo.png" width="150px">
+        <h1>UMD Courses</h1>
+        <h1 id="main_header"></h1>
+        <ul>
+            <li>
+                <a href="http://google.com">Home</a></li>
+            <li>
+                <a href="http://facebook.com">About</a>
+            </li>
+            <li>
+                <a href="#">Other</a>
+            </li>
+        </ul>
+    </header>
+    <article>
+        <h3>Search School Name:</h3>
+        <input id="school_field" type="text" placeholder="Ex: CMSC">
+        <button id="search_button">Search! </button>
+        <button id="clear_button"> Clear Results </button>
+        <article id="article_container"></article>
+    </article>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script>
+        $("#main_header").text("UMD Courses are lit");
+        console.log($("#main_header").text());
+
+        $("#search_button").on('click', function () {
+            var school = $("#school_field").val();
+
+            $.get("http://api.umd.io/v0/courses?dept_id=" + school, function (data) {
+                if (data.length == 0) {
+                    alert("We couldn't find any courses with " + school);
+                } else {
+                    for (var i = 0; i < data.length; i++) {
+                        var current = data[i];
+                        $("#article_container").append("<article><h2>" + current.course_id + " : " +
+                            current.name + " </h2><p> " + current.description + "</p></article>");
+                    }
+                }
+            });
+        });
+
+
+        // Check what this code does upon whatever you type in the input bar
+        /*$("#school_field").on('keyup', function (p) {
+            alert("YO")
+        })*/
+
+        $("#clear_button").on('click', function () {
+            $("#article_container").empty();
+        });
+    </script>
+</body>
+
+</html>

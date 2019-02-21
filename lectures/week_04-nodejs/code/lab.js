@@ -3,16 +3,11 @@ const http = require("http");
 
 const PORT = 8888;
 
-var a = "test";
-function handleReq(req, res){
-
-}
 
 const server = http.createServer(handleReq);
 
 function handleReq(req,res){
-    console.log('New Request at ' + req.url);
-    res.end('Link hit: ' + req.url);
+   // Code here
 }
 
 

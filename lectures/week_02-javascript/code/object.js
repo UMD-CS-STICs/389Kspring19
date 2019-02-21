@@ -35,7 +35,7 @@ var people = {
         gender: 'male'
     },
     Dickerson: {
-        age: 90,
+        age: 30,
         gender: 'male'
     }
 };
@@ -46,16 +46,17 @@ var people = {
 
 // Iterate through keys
 for (var name in people) {
-//     console.log(name);
+     console.log(name);
 }
 
 // Let's print out the name and ages
 for (var name in people) {
  	// Note this string interpolation / string literal feature - introduced in ES2015!
-//     console.log(`${name}'s age is ${people[name].age}.`);
+      console.log(`${name}'s age is ${people[name].age}.`);
+     //console.log(`${name}'s age is ${people.name.age}.`)
 }
 
-// Question: Why would doing people.name.age not work?
+// // Question: Why would doing people.name.age not work?
 
 
 
@@ -65,9 +66,10 @@ people.Dickerson.getAgeSquared = function () {
     return people.Dickerson.age * people.Dickerson.age;
 };
 
-// console.log(people.Dickerson.getAgeSquared());
+console.log(people.Dickerson)
+console.log(people.Dickerson.getAgeSquared());
 
 people.Dickerson.age = 12;
-//console.log(people.Dickerson.getAgeSquared());
+console.log(people.Dickerson.getAgeSquared());
 
 // Question: What would happen if I ran 'people.Dickerson.getAgeSquared = 2' followed by 'people.Dickerson.getAgeSquared()'?

@@ -330,20 +330,20 @@ We see an object being printed out in our browser. There is a lot of information
 ```javascript
 function handleReq(req, res){
     console.log("New request at " + req.url);
-    if (req.url === '/nazifa') {
+    if (req.url === '/benny') {
       var nazifa = {
-        age: 21,
-        gender: 'f',
+        age: 22,
+        gender: 'm',
         majors: ['computer science']
       };
-      res.end(nazifa);
-    } else if (req.url === '/tim') {
+      res.end(benny);
+    } else if (req.url === '/chirag') {
       var tim = {
-        age: 21,
+        age: 22,
         gender: 'm',
-        majors: ['computer science', 'finance']
+        majors: ['computer science']
       };
-      res.end(tim);
+      res.end(chirag);
     } else {
       res.end("Link hit: " + req.url);
     }

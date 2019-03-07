@@ -1,6 +1,6 @@
 # Week 6: Middleware + Templating
 
-Please grab a fresh copy of last week's lecture code [here](./code/shell). Make sure to run `npm install`.
+Please grab this week's shell code [here](./code/shell). Make sure to run `npm install`.
 
 ### What is middleware?
 

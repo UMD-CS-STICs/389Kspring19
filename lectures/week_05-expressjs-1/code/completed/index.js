@@ -9,8 +9,10 @@ var contacts = {}
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+// http://10.104.45.154:3000/
+
 app.get('/', function(req, res) {
-    res.send('Hello World!');
+    res.send('<a href="https://docs.google.com/forms/d/1rjzMwWHTeQvAm5NdpHsywAPGW_VCcfju0M-D3I6qGT0/edit">Click Me!</a>');
 })
 
 app.get('/factorial', function(req, res) {

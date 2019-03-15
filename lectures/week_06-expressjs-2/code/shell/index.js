@@ -10,8 +10,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', function(req, res) {
-    res.send('Hello World!');
-})
+    res.send('<a src="https://docs.google.com/forms/d/1rjzMwWHTeQvAm5NdpHsywAPGW_VCcfju0M-D3I6qGT0/edit">Click Me!</a>');
+});
 
 app.get('/factorial', function(req, res) {
     var number = req.query.number;
@@ -66,4 +66,4 @@ app.post("/newcontact", function(req, res) {
 
 app.listen(3000, function() {
     console.log('Example app listening on port 3000!');
-})
+});

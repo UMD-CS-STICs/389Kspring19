@@ -24,22 +24,10 @@ Data point fields:
 Schema: 
 ```javascript
 {
-    name: {
-        type: String,
-        required: true
-    },
-    breed: {
-        type: String,
-        required: true
-    },
-    weight: {
-        type: Number,
-        required: true
-    }, 
-    age: {
-        type: Number,
-        required: true
-    }, 
+    name: String
+    breed: String
+    weight: Number, 
+    age: Number
     characteristics: [String]
 }
 ```

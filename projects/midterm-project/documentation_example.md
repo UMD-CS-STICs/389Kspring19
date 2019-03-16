@@ -27,7 +27,7 @@ Schema:
     name: String
     breed: String
     weight: Number, 
-    age: Number
+    age: Number,
     characteristics: [String]
 }
 ```

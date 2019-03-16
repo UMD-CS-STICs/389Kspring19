@@ -24,8 +24,8 @@ Data point fields:
 Schema: 
 ```javascript
 {
-    name: String
-    breed: String
+    name: String,
+    breed: String,
     weight: Number, 
     age: Number,
     characteristics: [String]

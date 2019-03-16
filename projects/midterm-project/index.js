@@ -22,5 +22,5 @@ app.get('/',function(req,res){
 })
 
 app.listen(3000, function() {
-    console.log('House of Representatives listening on port 3000!');
+    console.log('Listening on port 3000!');
 });

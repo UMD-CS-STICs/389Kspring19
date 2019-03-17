@@ -90,8 +90,8 @@ afterwards.
 | 6 (3/8) | Express.js (cont.) | |
 | 7 (3/15) | Express.js (cont.) / Handlebars.js | P4 DUE & Midterm Project |
 | 8 (3/22) | Spring break |  |
-| 9 (3/29) | Databases | Midterm Project DUE |
-| 10 (4/5) | Web Sockets | |
+| 9 (3/29) | Databases | |
+| 10 (4/5) | Web Sockets | Midterm Project DUE |
 | 11 (4/12) | Midterm Project Presentation | Final Project OUT |
 | 12 (4/19) | Deployment & Advanced Git| |
 | 13 (4/26) | Javscript Libraries (Chart.js / Typed.js) | 

@@ -24,6 +24,26 @@ app.get('/', function(req, res) {
     res.render('chat');
 });
 
+app.get('/movies', function(req, res) {
+    Movie.find({}, function(err, movies) {
+        return res.render('movies', { movies: movies });
+    });
+});
+
+app.post('/movies', function(req, res) {
+    var genre = req.body.genre;
+    var title = req.body.title;
+    var movie = new Movie({
+        title: title,
+        genre: genre
+    });
+    movie.save(function(err) {
+        if (err) throw err;
+        io.emit('new movie', movie);
+        return res.send('Done!');
+    });
+});
+
 app.listen(3000, function() {
     console.log('Example app listening on port 3000!');
 });

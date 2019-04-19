@@ -1,4 +1,4 @@
-# Week 13
+# Week 12
 
 This week we will go over **deployment** and **git**.
 

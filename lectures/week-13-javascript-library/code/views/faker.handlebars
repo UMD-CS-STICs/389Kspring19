@@ -1,0 +1,13 @@
+<h1 id="time">{{this.time}}</h1>
+{{#each data}}
+  <div class="row">
+    <div class="col">
+      <img src={{this.img}} alt={{this.name}}>
+      <h3>{{this.name}}</h3>
+    </div>
+    <div class="col">
+      <h3>{{this.company}}</h3>
+      <p>"{{this.phrase}}"</p>
+    </div>
+  </div>
+{{/each}}

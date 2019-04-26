@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: .65rem;
+  margin-bottom: 1.5rem;
+  margin-left: 8.5%;
+  margin-right: 8.5%;
+}
+
+.col {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#time {
+  text-align: center;
+}

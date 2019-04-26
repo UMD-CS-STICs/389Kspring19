@@ -1,5 +1,5 @@
 # Midterm Project
-#### Out: 3/16/19 | Deadline: 4/5/19 11:00 AM
+#### Out: 3/16/19 | Deadline: 4/12/19 11:00 AM
 
 ### Overview
 
